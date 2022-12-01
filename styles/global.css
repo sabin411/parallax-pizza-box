@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+:root {
+  --primary-color: #f27c65;
+  --secondary-color: #333333;
+  --neutral-color: #FFFFFF;
+  --h1: 5rem;
+  --h2: 3rem;
+  --h3: 2rem;
+  --h4: 1.5rem;
+  --h5: 1.25rem;
+  --h6: 1rem;
+  --p: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  color: var(--neutral-color);
+}
+
+.hero h3 {
+  font-size: var(--h3);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.hero h3 a {
+  color: var(--primary-color);
+}
+
+.hero p {
+  font-size: var(--h5);
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.main-container {
+  background-color: var(--primary-color);
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/images/waves_white-15.png");
+}
+
+.service-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 0;
+  height: 100%;
+  max-width: 1550px;
+  margin-inline: auto;
+}
+
+.service-container__left {
+  width: 40%;
+}
+
+.service-container__left h1 {
+  font-size: var(--h1);
+  color: var(--secondary-color);
+  font-weight: 900;
+  color: var(--neutral-color);
+  margin-bottom: 24px;
+}
+
+.service-container__left h1 span {
+  color: var(--secondary-color);
+}
+
+.service-container__left p {
+  font-size: var(--h5);
+  color: var(--secondary-color);
+  line-height: var(--h3);
+}
+
+.service-container__right {
+  position: relative;
+  height: 100%;
+  width: 60%;
+}
+
+.service-container__right img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.service-container #pizza-box {
+  right: -290px;
+}
+
+#smoke {
+  z-index: 2;
+  right: 130px;
+}
+
+#blury-tomato {
+  right: -250px;
+  top: 400px;
+  z-index: 1;
+}
+
+#leaf-1 {
+  z-index: 2;
+  top: 45%;
+  right: 500px;
+}
+
+#leaf-2 {
+  z-index: 2;
+  top: 55%;
+  right: 800px;
+}
+
+#leaf-3 {
+  z-index: 2;
+  top: 35%;
+  right: 750px;
+}
+
+#tomatos {
+  z-index: 2;
+  top: 50%;
+  right: 400px;
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--neutral-color);
+  padding: 2rem 0;
+}
+
+.footer h3 {
+  font-size: var(--h3);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.footer h3 a {
+  color: var(--primary-color);
+}
+
+.footer p {
+  font-size: var(--h5);
+  font-weight: 400;
+  padding-bottom: 1rem;
+}/*# sourceMappingURL=global.css.map */
