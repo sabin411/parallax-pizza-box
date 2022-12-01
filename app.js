@@ -4,35 +4,35 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.to("#blury-tomato", {
     scrollTrigger: {
         trigger: "#blury-tomato",
-        scrub: true,
+        scrub: 1,
         // pin: false,
         // pinSpacing: false
     },
-    y: -150
+    y: -200
 });
 gsap.to("#tomatos", {
     scrollTrigger: {
         trigger: "#tomatos",
-        scrub: true,
+        scrub: 1,
         // pin: false,
         // pinSpacing: false
     },
-    y: -150
+    y: -200
 });
 
 gsap.to("#leaf-1", {
     scrollTrigger: {
         trigger: "#leaf-1",
-        scrub: true,
+        scrub: 1,
         // pin: false,
         // pinSpacing: false
     },
-    y: -150
+    y: -200
 });
 gsap.to("#leaf-2", {
     scrollTrigger: {
         trigger: "#leaf-2",
-        scrub: true,
+        scrub: 1,
         // pin: false,
         // pinSpacing: false
     },
@@ -41,7 +41,7 @@ gsap.to("#leaf-2", {
 gsap.to("#leaf-3", {
     scrollTrigger: {
         trigger: "#leaf-3",
-        scrub: true,
+        scrub: 1,
         // pin: false,
         // pinSpacing: false
     },
